@@ -11,10 +11,8 @@
 
     - Please follow ONE of the following two options (depends on which shell you use):
     
-      - If you are using zsh, run `echo 'export PATH="$HOME/.npm/bin:$PATH"' >> ~/.zshrc`.
-        ```
-        username@UserName-MacBook-Pro ~ % echo 'export PATH="$HOME/.npm/bin:$PATH"' >> ~/.zshrc
-        ```
-      - If you are using bash, run `echo 'export PATH="$HOME/.npm/bin:$PATH"' >> ~/.bashrc`.
-        ```
-        username@UserName-MacBook-Pro ~ % echo 'export PATH="$HOME/.npm/bin:$PATH"' >> ~/.bashrc
+      - If you are using zsh, run `echo 'export PATH="$HOME/.npm/bin:$PATH"' >> ~/.zshrc`
+
+      - If you are using bash, run `echo 'export PATH="$HOME/.npm/bin:$PATH"' >> ~/.bashrc`
+   
+
