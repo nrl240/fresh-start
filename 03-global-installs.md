@@ -7,8 +7,10 @@
       [USER_NAME]-MBP ~ % npm config set prefix ~/.npm
       ```
 2. **Update `PATH`**
-    - You also have to include modules installed here to your `PATH`. In your `.zshrc`, `.profile`, or equivalent you should also set something like `export PATH="$HOME/.npm/bin:$PATH"`. This will allow you to run globally installed modules that are located in `~/.npm/bin`.
+    - You also have to include modules installed here to your `PATH`. In your `.zshrc`, `.profile`, `.bash_profile`, `.bashrc`, **or equivalent** you should also set something like `export PATH="$HOME/.npm/bin:$PATH"`. This will allow you to run globally installed modules that are located in `~/.npm/bin`.
 
+    - Please follow ONE of the following two options (depends on which shell you use):
+    
       - If you are using zsh, run `echo 'export PATH="$HOME/.npm/bin:$PATH"' >> ~/.zshrc`.
         ```
         username@UserName-MacBook-Pro ~ % echo 'export PATH="$HOME/.npm/bin:$PATH"' >> ~/.zshrc
