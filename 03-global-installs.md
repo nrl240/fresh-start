@@ -2,6 +2,7 @@
 
 1. **Set prefix for global installs**
     - `npm` has a configuration called `prefix`. This configuration setting tells `npm` where to install global modules.
+    
     - In Terminal, run `npm config set prefix ~/.npm`
         - This is equivalent to editing your `~/.npmrc` to include the line `prefix=~/.npm`. You can make the prefix whatever you like, but it should be in a directory that your user has permissions to write to. That should be anything under your home directory, `~`.
 
